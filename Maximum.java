@@ -10,7 +10,6 @@ import java.util.stream.Stream;
 public class Maximum {
 	public static void main(String[] args) {
 		List<Integer> maximum=Arrays.asList(23, 16, 29, 89, 99);
-		List<Integer> in=maximum.stream().toList();
 		System.out.println(Collections.max(maximum));
 		int m=maximum.stream().max(Integer::compare).get();
 		System.out.println(m);

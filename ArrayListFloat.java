@@ -18,6 +18,7 @@ public class ArrayListFloat {
 		System.out.println();
 		//rating.addAll(Arrays.asList(new Float[]{8.8f, 7.4f, 4.9f, 6.1f, 9.6f}));
 		//rating.forEach(num->System.out.print(num+","));
+		System.out.println("Hello");
 		
 	}
 
